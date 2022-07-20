@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800&display=swap');
+
+$Text: 'Poppins', sans-serif;
+
+.container{
+    max-width: 100%;
+    margin: 0 auto;
+}
+.content{
+    box-sizing: content-box;
+    padding: 0 20px;
+}
+
+
+
+.TextItem{
+    font-family: $Text;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+
+    color: #A3ABB2;
+    padding: 50px 55px 0 55px;
+}
+.TextRow{
+    display: flex;
+    justify-content: center;
+    max-width: 618px;
+    margin: 0 auto;
+}
+
+
+.ButtonCon{
+    padding: 70px 0 0 0;
+    max-width: 618px;
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 769px){
+    .TextItem{
+        font-family: $Text;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 13px;
+        text-align: center;
+    
+        color: #A3ABB2;
+        padding: 50px 25px 0 25px;
+    }
+    .ButtonCon{
+        max-width: 330px;
+        box-sizing: content-box;
+        padding: 60px 20px;
+    }
+}
+@media(max-width: 426px){
+
+}
+@media(max-width: 320px){
+    .TextItem{
+        font-family: $Text;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 13px;
+        text-align: center;
+    
+        color: #A3ABB2;
+        padding: 50px 15px 0 15px;
+    }
+}

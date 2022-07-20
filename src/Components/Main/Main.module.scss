@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800&display=swap');
+
+$Text: 'Poppins', sans-serif;
+
+
+.ButtonRow{
+    display: flex;
+    background-color:  #171F26;
+    width: 756px;
+    height: 132px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.Container{
+    margin: 0 auto;
+    max-width: 756px;
+    padding: 80px 0;
+}
+.Content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 769px){
+    .ButtonRow{
+       
+        width: 330px;
+        height: 64px;
+    
+        
+    }
+    .Container{
+        padding: 0px 0;
+    }
+}
+@media(max-width: 426px){
+
+}
+@media(max-width: 320px){
+
+}

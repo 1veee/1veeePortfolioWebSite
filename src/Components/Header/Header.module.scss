@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800&display=swap');
+
+$Text: 'Poppins', sans-serif;
+
+
+
+
+.container{
+    max-width: 100%;
+    margin: 0 auto;
+}
+.content{
+    box-sizing: content-box;
+    padding: 0 20px;
+}
+.content-row{
+    display: flex;
+    justify-content: center;
+    margin: 100px 0 0 0;
+}
+.img{
+    width: 215px;
+    height: 215px;
+    background-color: yellow;
+    border: 6px grey solid;
+    border-radius: 50%;
+    margin: 0 10px 0 0 ;
+}
+.Tittle{
+    font-family: $Text;
+    color: #F1F2F4;
+    font-size: 46px;
+    line-height: 69px;
+    font-weight: 500;
+    margin: 30px 0 0 10px;
+}
+.SubTittle{
+    font-weight: 500;
+    font-size: 22px;
+    color: #A3ABB2;
+    line-height: 33px;
+    margin: 0 0 0 10px;  
+}
+.IconConteiner{
+    display: flex;
+    align-items: center;
+}
+.ico{
+    padding: 5px 10px;
+}
+@media(max-width: 769px){
+    .img{
+        width: 115px;
+        height: 115px;
+    }
+    .Tittle{
+        font-family: $Text;
+        color: #F1F2F4;
+        font-size: 26px;
+        line-height: 69px;
+        font-weight: 500;
+        margin: 0 0 0 10px;
+    }
+    .SubTittle{
+        font-weight: 500;
+        font-size: 12px;
+        color: #A3ABB2;
+        line-height: 33px;
+        margin: -15px 0 0 10px;  
+    }
+    .content-row{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 100px 0 0 0;
+    }
+}
+@media(max-width: 426px){
+    .Tittle{
+        font-family: $Text;
+        color: #F1F2F4;
+        font-size: 26px;
+        line-height: 69px;
+        font-weight: 500;
+        margin: 0 0 0 10px;
+        text-align: center;
+    }
+    .SubTittle{
+        font-weight: 500;
+        font-size: 12px;
+        color: #A3ABB2;
+        line-height: 33px;
+        margin: -15px 0 0 10px; 
+        text-align: center; 
+    }
+    .content-row{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 100px 0 0 0;
+    }
+    .IconConteiner{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800&display=swap');
+
+$Text: 'Poppins', sans-serif;
+
+.ButtonMainTwo{
+    width: 349px;
+    height: 80px;
+    background-color: #171F26;
+    border-radius: 10px;
+    border: none;
+
+
+
+    font-family: $Text;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+    color: #A3ABB2;
+
+    text-align: center;
+    &:hover{
+        background-color: #0C151D;
+        cursor: url('../../../../Assets/img/navigation.png'), auto;
+    }
+}
+
+@media(max-width: 769px){
+    .ButtonMainTwo{
+        width: 154px;
+        height: 50px;
+        font-size: 14px;
+
+    }
+    
+}
+@media(max-width: 426px){
+
+}
+@media(max-width: 320px){
+
+}

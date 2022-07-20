@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800&display=swap');
+
+$Text: 'Poppins', sans-serif;
+
+
+
+.ButtonOne{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 290px;
+    height: 80px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+
+    // padding: 10px 30px;
+    background: #FFE071;
+    color: #3D3D3D;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-family: $Text;
+    border: none;
+    border-radius: 5px;
+    &:hover{
+        cursor: url('../../Assets/img/navigation.png'), auto;
+    }
+    // &::before{
+    //     content: '';
+    //     position: absolute;
+    //     top: var(--y);
+    //     left: var(--x);
+    //     transform: translate(-50%, -50%);
+    //     width: 0;
+    //     height: 0;
+    //     border-radius: 50%;
+    //     background: #171F26;
+    //     transition: width 0.5s, height 0.5s;
+        
+    // }
+    // &:hover::before{
+    //     width: 300px;
+    //     height: 300px;
+        
+    // }
+    // &:hover{
+    //     color: #FFE071;
+    // }
+}
+// .ButtonOne span{
+//     position: relative;
+//     z-index: 1;
+// }
+
+
+@media(max-width: 769px){
+    .ButtonOne{
+        width: 158px;
+        height: 44px;
+        font-size: 12px;
+        line-height: 18px;
+    }
+}
+@media(max-width: 426px){
+    .ButtonOne{
+        width: 130px;
+        height: 30px;
+        font-size: 9px;
+        line-height: 15px;
+    }
+}
